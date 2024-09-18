@@ -1,0 +1,55 @@
+/* Styles globaux pour l'application */
+
+/* Appliquer un fond général */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+/* S'assurer que l'application utilise toute la hauteur */
+.App {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* Styles globaux pour les boutons */
+button {
+  padding: 10px 20px;
+  background-color: #61dafb;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: #21a1f1;
+}
+
+header {
+  background-color: #333;
+  padding: 20px;
+  color: white;
+}
+
+/* Ajuste la position du contenu pour éviter le chevauchement avec le footer */
+main {
+  flex: 1;
+  padding: 20px;
+}
+
+/* Footer en bas de la page */
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  position: relative;
+  width: 100%;
+  bottom: 0;
+}

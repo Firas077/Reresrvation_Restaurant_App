@@ -1,0 +1,15 @@
+.reservation {
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  .reservation form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .reservation label {
+    margin: 10px 0;
+  }
+  
